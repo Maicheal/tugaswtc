@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tugas.tugasmobile.ShilinActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/shilin2" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stall Shihlin ini terinspirasi dari street market di Taiwan yang penuh dengan jajanan atau cemilan yang lezat. Salah satu menu andalannya adalah aneka bentuk gorengan. Seperti XXL Crispy Chicken. Ini adalah dada ayam tanpa tulang yang berukuran extra besar dan dibalut tepung crispy. Lalu ada Seafood Tempura, yaitu aneka gorengan seafood. Semua menu gorengan ini bisa dicampur dengan bumbu spesial yang tingkat kepedasannya bisa kita pilih.Dan sekarang Shilin sudah membuka cabang di Jambi yaitu di WTCbatanghari."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
